@@ -6,7 +6,7 @@ public class UserInput_output {
         int num = input.nextInt();
         System.out.println(num);
     }
-    public static void main(String[] args) {
+    public static void main(String[]args) {
         Scanner scanner = new Scanner(System.in);
         printNumber(scanner);
     }
