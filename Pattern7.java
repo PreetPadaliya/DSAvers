@@ -20,6 +20,8 @@ public class Pattern7 {
                 System.out.print("*");
             }
 
+
+
             //droping line
             System.out.println();
         }
