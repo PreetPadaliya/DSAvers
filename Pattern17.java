@@ -14,7 +14,7 @@ public class Pattern17 {
             }
 
             for (int k = 0; k < 2*i - 1; k++){
-                System.out.print((char)('A'+k));
+                System.out.print((char)('ABC'+k));
             }
             System.out.println();
         }
