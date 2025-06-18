@@ -13,8 +13,16 @@ public class Pattern17 {
                 System.out.print(" ");
             }
 
-            for (int k = 0; k < 2*i - 1; k++){
-                System.out.print((char)('A'+k));
+            char ch = 'A';
+            int breakpoint = (2*i+1)/2;
+            for (int k = 1; k <= 2*i + 1; k++){
+                System.out.print(ch);
+                if (k<=breakpoint){
+                    ch++;
+                }
+                else {
+                    ch--;
+                }
             }
             System.out.println();
         }
