@@ -8,7 +8,7 @@ public class Pattern20 {
         int n = input.nextInt();
 
         for (int i=0 ; i<n ; i++){
-            
+
         }
     }
 }
