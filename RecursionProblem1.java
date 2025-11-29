@@ -1,5 +1,16 @@
 import java.util.Scanner;
 
+class Recur2 {
+    static void printName(String name, int n) {
+        if (n == 0) {
+            return;
+        } else {
+            System.out.println(name);
+            printName(name, n - 1);
+        }
+    }
+}
+
 public class RecursionProblem1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -9,16 +20,11 @@ public class RecursionProblem1 {
 
         System.out.print("How many times to print? ");
         int n = sc.nextInt();
-        printName(name, n);
-    }
-    static void printName(String name, int n) {
-        if (n == 0) {
-            return;
-        }
-        else {
-            System.out.println(name);
-            printName(name, n - 1);
-        }
+
+        Recur2 rec = new Recur2();
+        rec.printName(name, n);
     }
 }
+
+
 

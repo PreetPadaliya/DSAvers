@@ -1,4 +1,4 @@
-//Base Condition (The stack memory not overflowed)
+//Base Condition (The stack memory not overflowed);
 
 class Nothingg{
     int cnt = 0;
@@ -17,3 +17,4 @@ public class IntroRecursion2 {
         n.print();
     }
 }
+
